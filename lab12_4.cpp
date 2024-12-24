@@ -35,7 +35,7 @@ int main(){
 
 template<typename CurrentType>
 void mySwap(CurrentType &x,CurrentType &y){
-	 tmp = x;
+	CurrentType tmp = x;
 	x = y;
 	y = tmp;
 }
